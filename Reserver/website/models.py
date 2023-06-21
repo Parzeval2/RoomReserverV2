@@ -1,6 +1,6 @@
 from . import db
 
-class GroupInfo(db.Model):
+class Group(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     CWID = db.Column(db.Integer)
     size = db.Column(db.Integer)
